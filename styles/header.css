@@ -1,0 +1,46 @@
+
+.header{
+  display: flex;
+  height: 50px;
+  background-color: rgb(255, 229, 171);
+  align-items:center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-weight:500;
+}
+
+.selectable-header-label-container{
+  flex: 2;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-label{
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+}
+
+.name-header-label{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.selectable-header-label{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+}
+.selectable-header-label:hover{
+  background-color: rgb(238, 184, 77);
+}
+
+
